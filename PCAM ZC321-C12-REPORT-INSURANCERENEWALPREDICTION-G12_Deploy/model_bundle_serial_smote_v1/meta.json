@@ -1,0 +1,51 @@
+{
+  "dataset": "clean_reduced_no_cat_raw",
+  "sampling_method": "smote",
+  "created_by": "export_serial_bundle",
+  "created_at": "2025-10-24T00:00:00Z",
+  "bundle_version": "v1",
+  "stages": [
+    {
+      "name": "stage_1_xgb",
+      "model_file": "stage_1_xgb.joblib",
+      "threshold": 0.41423144936561584
+    },
+    {
+      "name": "stage_2_svc",
+      "model_file": "stage_2_svc.joblib",
+      "threshold": 0.09380744596766871
+    },
+    {
+      "name": "stage_3_logreg",
+      "model_file": "stage_3_logreg.joblib",
+      "threshold": 0.12219645685545777
+    }
+  ],
+  "stages_thresholds": {
+    "stage_1_xgb.joblib": 0.41423144936561584,
+    "stage_2_svc.joblib": 0.09380744596766871,
+    "stage_3_logreg.joblib": 0.12219645685545777
+  },
+  "feature_names": [
+    "id",
+    "perc_premium_paid_by_cash_credit",
+    "Income",
+    "age_in_days",
+    "Count_3-6_months_late",
+    "Count_6-12_months_late",
+    "Count_more_than_12_months_late",
+    "application_underwriting_score",
+    "no_of_premiums_paid",
+    "premium"
+  ],
+  "drop_categorical": true,
+  "scaler_file": "scaler.joblib",
+  "notes": {
+    "scaler_saved_as": "provided",
+    "training_label_definition": "1 = non_renew, 0 = renew"
+  },
+  "label_map": {
+    "1": "renew",
+    "0": "non_renew"
+  }
+}

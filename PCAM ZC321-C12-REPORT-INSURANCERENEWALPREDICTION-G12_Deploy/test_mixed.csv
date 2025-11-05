@@ -1,0 +1,10 @@
+id,perc_premium_paid_by_cash_credit,age_in_days,Income,Count_3-6_months_late,Count_6-12_months_late,Count_more_than_12_months_late,application_underwriting_score,no_of_premiums_paid,sourcing_channel,residence_area_type,premium
+649,0.001,27384,51150,0,0,0,99.89,7,A,Rural,3300
+81136,0.124,23735,285140,0,0,0,98.93,19,A,Urban,11700
+53935,0.198,16068,123540,0,0,0,99,11,B,Rural,5400
+110936,0.429,12058,355060,0,0,0,99.02,13,C,Urban,3300
+41492,0.01,21546,315150,0,0,0,99.89,21,A,Urban,18000
+31300,0.917,17531,84140,2,3,1,98.69,7,C,Rural,3300
+19415,0.049,15341,250510,0,0,0,99.57,9,A,Urban,9600
+99379,0.052,31400,198680,0,0,0,99.87,12,B,Urban,9600
+59951,0.54,17527,282080,0,0,0,99.18,9,B,Rural,22200
