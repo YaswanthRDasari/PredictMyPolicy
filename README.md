@@ -18,17 +18,20 @@ The app allows users to:
 ## 📸 Screenshots
 
 ### Upload Interface
-![PredictMyPolicy Upload Screen](screenshots/upload_screen.png)
+<img width="3563" height="1734" alt="image" src="https://github.com/user-attachments/assets/357e0cb1-b814-4710-ac03-42ac9edaae90" />
+
 
 *Clean and intuitive interface for uploading CSV files with detailed feature requirements*
 
 ### Data Preview
-![Data Preview](screenshots/data_preview.png)
+<img width="3556" height="1709" alt="image" src="https://github.com/user-attachments/assets/65674f1b-cf73-4cfa-a037-f355d4797823" />
+
 
 *Instant preview of uploaded data showing 34,224 rows with automatic validation*
 
 ### Prediction Results
-![Prediction Results](screenshots/results_screen.png)
+<img width="3609" height="1586" alt="image" src="https://github.com/user-attachments/assets/b30bf0e4-00f2-47ac-8e2c-a28e8d3b7b14" />
+
 
 *Real-time predictions with renewal scores and downloadable results*
 
